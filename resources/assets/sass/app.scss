@@ -1,0 +1,130 @@
+// Imports
+  @import 'modules/_fonts';
+  @import 'modules/_all';
+// END Imports
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $main-link;
+
+  &:hover {
+    color: $main-link-hover;
+  }
+}
+
+a,
+button {
+  cursor: pointer;
+  @include fade;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font: 100% $font;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+img,
+input,
+textarea,
+select,
+a,
+button {
+  border: none;
+  background-color: $transparent;
+}
+
+img:focus,
+input:focus,
+textarea:focus,
+select:focus,
+a:focus,
+button:focus {
+  outline: none;
+}
+
+.main {
+  @extend .normal;
+
+  .box {
+    @extend .normal-box;
+  }
+}
+
+$position: '#position';
+$top: '#top';
+
+.all-center {
+  #{ $position }: absolute;
+  #{ $top }: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center {
+  #{ $position }: relative;
+  #{ $top }: -50%;
+}
+
+.slicknav_menu {
+  display: none;
+
+    @media screen and (min-width: $mobile) {
+        display: none;
+    }
+
+    @media screen and (max-width: $mobile) {
+        display: block;
+    }
+}
+
+// SECTION ALL - Seção geral
+    .all {
+      min-height: 100%;
+      position: relative;
+      width: 100%;
+      float: left;
+
+      .content {
+        padding-bottom: 100px;
+      }
+    }
+// END SECTION ALL
+
+// HEADER
+  header#main {
+    nav ul#main-nav {
+
+    }
+  }
+// END HEADER
+
+// FOOTER
+  footer#main {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+    background-color: $footer-bg;
+
+      @media screen and (max-width: $mobile) {
+      }
+
+      @media screen and (min-width: $large) {
+      }
+  }
+// END FOOTER
+
+// MEDIA QUERIES

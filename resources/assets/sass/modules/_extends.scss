@@ -1,0 +1,53 @@
+// Imports
+	@import '_variables';
+// END Imports
+
+// Extends
+	.normal {
+    float: left;
+    width: 100%;
+    height: auto;
+	}
+
+	.normal-box {
+    width: $large;
+    margin: 0 auto;
+
+    @media only screen and (max-width: $large) {
+    	width: $all;
+    }
+	}
+
+	.normal-second {
+		float: left;
+		width: 100%;
+	}
+
+	.back {
+		background-repeat: no-repeat;
+		background-image: $sprite;
+	}
+
+	.sizing {
+		-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+				box-sizing: border-box;
+	}
+
+	.abscenter {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+
+	.reset-sel {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    -moz-appearance: none;
+    text-indent: .01px;
+    text-overflow: '';
+    background-image: $arrow;
+    background-position: right center;
+    background-repeat: no-repeat;
+	}
+// END Extends
