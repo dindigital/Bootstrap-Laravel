@@ -1,0 +1,49 @@
+.normal {
+  float: left;
+  width: 100%;
+  height: auto; }
+
+.normal-box {
+  width: 1024px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 1024px) {
+    .normal-box {
+      width: 90%; } }
+
+.normal-second {
+  float: left;
+  width: 100%; }
+
+.back {
+  background-repeat: no-repeat;
+  background-image: url("/assets/img/sprite.png"); }
+
+.sizing {
+  box-sizing: border-box; }
+
+.abscenter {
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
+
+.reset-sel {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-appearance: none;
+  text-indent: .01px;
+  text-overflow: '';
+  background-image: url("/assets/img/arrow.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  width: 100%; }
+
+.box-sel {
+  width: 100px;
+  overflow: hidden; }
+
+.pattern-sel {
+  padding: 8px 10px;
+  background-position: 90% center;
+  font-size: 12px; }
+
+/*# sourceMappingURL=home.css.map */

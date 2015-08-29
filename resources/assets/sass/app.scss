@@ -1,0 +1,103 @@
+
+// Imports
+  @import 'modules/_fonts';
+  @import 'modules/_all';
+// END Imports
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $main-link;
+
+  &:hover {
+    color: $main-link-hover;
+  }
+}
+
+a,
+button {
+  cursor: pointer;
+  @include fade;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font: 100% $font;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+img,
+input,
+textarea,
+select,
+a,
+button {
+  border: none;
+  background-color: $transparent;
+}
+
+img:focus,
+input:focus,
+textarea:focus,
+select:focus,
+a:focus,
+button:focus {
+  outline: none;
+}
+
+figure {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 100;
+}
+
+
+.main {
+  @extend .normal;
+
+  .box {
+    @extend .normal-box;
+  }
+}
+
+$position: '#position';
+$top: '#top';
+
+.all-center {
+  #{ $position }: absolute;
+  #{ $top }: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center {
+  #{ $position }: relative;
+  #{ $top }: -50%;
+}
+
+header#main-header {
+  // ...
+}
+
+footer#main-footer {
+  // ...
+}
