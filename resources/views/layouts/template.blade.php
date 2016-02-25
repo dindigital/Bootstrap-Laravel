@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
 
-		<title>PROJECT NAME</title>
+		<title>PROJECT'S TITLE</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
 		<meta name="robots" content="index, nofollow">

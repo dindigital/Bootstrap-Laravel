@@ -17,11 +17,23 @@ var bower = '../bower_components';
 
  elixir(function(mix) {
    mix.sass([
+     bower + '/normalize.css/normalize.css',
      bower + '/slicknav/dist/slicknav.min.css',
      bower + '/font-awesome/css/font-awesome.min.css',
+   ] , path + '/css/vendor.css');
+ });
+
+ elixir(function(mix) {
+   mix.sass([
      'app.scss',
    ] , path + '/css/app.css');
  });
+
+ // elixir(function(mix) {
+ //   mix.sass([
+ //     bower + 'plugin/just-in-home-page/home.min.css',
+ //   ] , path + '/css/vendor-home.css');
+ // });
 
  elixir(function(mix) {
    mix.sass([
@@ -35,9 +47,20 @@ var bower = '../bower_components';
 elixir(function(mix) {
  mix.scripts([
    bower + '/slicknav/dist/jquery.slicknav.min.js',
+ ] , path + '/js/vendor.js');
+});
+
+elixir(function(mix) {
+ mix.scripts([
    'app.js',
  ] , path + '/js/app.js');
 });
+
+// elixir(function(mix) {
+// mix.scripts([
+//   bower + '/bxslider-4/dist/jquery.bxslider.min.js',
+// ] , path + '/js/vendor-home.js');
+// });
 
 elixir(function(mix) {
 mix.scripts([
