@@ -47,7 +47,14 @@ var bower = '../bower_components';
 elixir(function(mix) {
  mix.scripts([
    bower + '/slicknav/dist/jquery.slicknav.min.js',
+   bower + '/jquery-1.9.1/index.js',
  ] , path + '/js/vendor.js');
+});
+
+elixir(function(mix) {
+ mix.scripts([
+   bower + '/modernizr/modernizr.js'
+ ] , path + '/js/modernizr.js');
 });
 
 elixir(function(mix) {
@@ -55,6 +62,8 @@ elixir(function(mix) {
    'app.js',
  ] , path + '/js/app.js');
 });
+
+// HOME
 
 // elixir(function(mix) {
 // mix.scripts([
@@ -68,3 +77,5 @@ mix.scripts([
   'home.js',
 ] , path + '/js/home.js');
 });
+
+// END HOME

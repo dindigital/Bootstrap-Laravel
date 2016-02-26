@@ -26,13 +26,13 @@
 		<meta property="og:type" content="website">
 		-->
 
-		<link type="text/css" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
+		<link type="text/css" rel="stylesheet" href="/assets/css/vendor.css" />
 		<link type="text/css" rel="stylesheet" href="/assets/css/app.css" />
 
     @section('css')
     @show
 
-		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 
 		<!--[if lt IE 9]>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
@@ -51,7 +51,7 @@
 			@include('includes.footer')
     </section>
 
-		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="/assets/js/vendor.js"></script>
     <script type="text/javascript" src="/assets/js/app.js"></script>
 
     @section('js')
