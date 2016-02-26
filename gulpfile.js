@@ -64,7 +64,7 @@ elixir(function(mix) {
 
 elixir(function(mix) {
 mix.scripts([
-  bower + '/bxslider-4/dist/jquery.bxslider.min.js',
+  // bower + '/bxslider-4/dist/jquery.bxslider.min.js',
   'home.js',
 ] , path + '/js/home.js');
 });
