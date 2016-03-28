@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var elixir = require('laravel-elixir');
 var path = 'public/assets';
-var bower = '../bower_components';
+var bower = '../lib';
 var tinypng = require('gulp-tinypng-compress');
 
 /*
