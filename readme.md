@@ -9,7 +9,8 @@ Bootstrap to start the development with Laravel Framework.
 5. Execute gulp: `gulp`
 6. Watch files: `gulp watch`
 7. Tiny files: `gulp tiny`
-8. Be happy
+8. Install fonts from command line with [FontWR](https://github.com/raphaklaus/fontwr)
+9. Be happy
 
 ## What do you need to do?
 

@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
+    "fontwr": "^1.0.0-beta",
     "gulp": "^3.9.1",
     "gulp-tinypng-compress": "^1.2.0"
   },
