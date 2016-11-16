@@ -9,7 +9,7 @@
 		<title>PROJECT'S TITLE</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<meta name="robots" content="index, nofollow">
+		<meta name="robots" content="index, follow">
 
 		<link rel="shortcut icon" href="/favicon.ico">
 		<link rel="icon" sizes="192x192"  href="/favicon-192x192.png">
