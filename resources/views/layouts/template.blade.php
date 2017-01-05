@@ -61,11 +61,11 @@
   <body itemscope itemtype="http://schema.org/WebPage">
 
     <section class="normal">
-			@include('includes.header')
+			@include('partials.header')
 
       @yield('content')
 
-			@include('includes.footer')
+			@include('partials.footer')
     </section>
 
 		<script type="text/javascript" src="/assets/js/vendor.js"></script>
