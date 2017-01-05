@@ -24,6 +24,7 @@ If in all pages, ok, keep with `vendor.js` and `vendor.css` in `template.blade.p
 
 1. Minify all files to production with `gulp --production`
 2. If this message appears `'Try reinstalling node-sass?]'` just run this one: `sudo npm rebuild node-sass`
+3. To generate a new Laravel Key, run `php artisan key:generate`
 
 ## Tiny PNG
 
