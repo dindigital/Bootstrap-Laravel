@@ -1,11 +1,11 @@
 @extends('layouts.template')
 
 @section('css')
-  <link rel="stylesheet" href="/assets/css/home.css" />
+  <link rel="stylesheet" href="{{elixir('assets/css/home.css')}}" />
 @stop
 
 @section('js')
-  <script type="text/javascript" src="/assets/js/home.js"></script>
+  <script type="text/javascript" src="{{elixir('assets/js/home.js')}}"></script>
 @stop
 
 @section('content')

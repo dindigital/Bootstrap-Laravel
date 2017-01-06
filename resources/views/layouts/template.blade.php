@@ -43,13 +43,13 @@
 		<meta property="og:type" content="website">
 		-->
 
-		<link type="text/css" rel="stylesheet" href="/assets/css/vendor.css" />
-		<link type="text/css" rel="stylesheet" href="/assets/css/app.css" />
+		<link type="text/css" rel="stylesheet" href="{{elixir('assets/css/vendor.css')}}" />
+		<link type="text/css" rel="stylesheet" href="{{elixir('assets/css/app.css')}}" />
 
     @section('css')
     @show
 
-		<script type="text/javascript" src="/assets/js/modernizr.js"></script>
+		<script type="text/javascript" src="{{elixir('assets/js/modernizr.js')}}"></script>
 
 		<!--[if lt IE 9]>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
@@ -68,8 +68,8 @@
 			@include('partials.footer')
     </section>
 
-		<script type="text/javascript" src="/assets/js/vendor.js"></script>
-    <script type="text/javascript" src="/assets/js/app.js"></script>
+	<script type="text/javascript" src="{{elixir('assets/js/vendor.js')}}"></script>
+    <script type="text/javascript" src="{{elixir('assets/js/app.js')}}"></script>
 
     @section('js')
     @show
