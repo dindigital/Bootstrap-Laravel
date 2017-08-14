@@ -28,10 +28,6 @@ var tinypng = require('gulp-tinypng-compress');
      'app.scss',
    ] , path + '/css/app.css');
 
- //   mix.sass([
- //     bower + 'plugin/just-in-home-page/home.min.css',
- //   ] , path + '/css/vendor-home.css');
-
    mix.sass([
      'home.scss',
    ] , path + '/css/home.css');
@@ -49,10 +45,10 @@ var tinypng = require('gulp-tinypng-compress');
      'app.js',
    ] , path + '/js/app.js');
 
-   // Home
-    // mix.scripts([
-    //   bower + '/bxslider-4/dist/jquery.bxslider.min.js',
-    // ] , path + '/js/vendor-home.js');
+
+   mix.scripts([
+     'home.js',
+   ] , path + '/js/home.js');
 
    // VERSION
    mix.version([
@@ -62,7 +58,8 @@ var tinypng = require('gulp-tinypng-compress');
 
     path + '/js/vendor.js',
     path + '/js/modernizr.js',
-    path + '/js/app.js'
+    path + '/js/app.js',
+    path + '/js/home.js'
   ]);
  });
 
